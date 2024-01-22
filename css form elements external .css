@@ -1,0 +1,188 @@
+.a{
+    height: 1000px;
+    width: 1500px;
+    background-color: rgb(65, 62, 62);
+}
+.b{
+    height: 60px;
+    width: 1500px;
+    background-color:#00ffff;
+}
+.c{
+    height:850px;
+    width:1300px;
+    background-color:whitesmoke;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+.d{
+    height:600px;
+    width:350px;
+    background-color:aqua;
+    margin-top: 40px;
+    margin-left: 60px;
+    float: left;
+}
+.e{
+    height: 350px;
+    width:820px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-right: 35px;
+    margin-left: 10px;
+    padding-top:10px;
+    padding-left: 20px;
+    float: right;
+}
+.f{
+    height: 430px;
+    width:840px;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 10px;
+    float: right;
+}
+.g{
+    padding-right: 350px;
+}
+.h{
+    padding-right: 350px;   
+}
+.i{
+    padding-right: 350px;
+}
+.j{
+    padding-right: 350px;
+}
+.k{
+    padding-right: 350px;
+}
+.l{
+    background-color: rgb(42, 75, 223);
+    border-radius: 2px;
+}
+.m{
+    background-color:lightgreen;
+    border-radius: 2px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.n{
+    background-color:skyblue;
+    border-radius: 2px;
+}
+.o{
+    background-color:skyblue;
+    border-radius: 2px;
+}
+.p{
+    background-color:skyblue;
+    border-radius: 2px;
+   
+}
+.q{
+    background-color:tomato;
+    border-radius: 2px;
+}
+.r{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    border: 3px solid blue;
+    margin-top: 15px;
+    margin-left: 95px;
+}
+.fg{
+    background-image: ("https://www.bing.com/images/search?view=detailV2&ccid=7OMBFSRr&id=B0D0B3F1249FEEC56294F9EDDC074F1FC8B5C34C&thid=OIP.7OMBFSRr8GanxQKKlwBrswHaH_&mediaurl=https%3a%2f%2fcdn4.vectorstock.com%2fi%2f1000x1000%2f44%2f73%2fboy-avatar-in-round-web-button-isolated-on-white-vector-20694473.jpg&exph=1080&expw=1000&q=boy+avatar&simid=608022521947571845&FORM=IRPRST&ck=361466825AC6EC87285AF4E5DED15D85&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0");
+    background-size: cover;
+}
+.s{
+    margin:1px
+}
+.t{
+    background-color: rgb(60, 60, 204);
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.u{
+    margin-top: 10px;
+    border: 2px solid blue;
+}
+.v{
+    border:1px solid white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.w{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.x{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.y{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.z{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bhavi{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sravs{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pinky{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.vasu{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chinnu{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.udatha{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.potti{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.kavya{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.batani
+{
+
+    padding-right:600px ;
+}
+.ab{
+    padding-right:600px ;
+}
+.bc{
+    padding-right:600px ;
+}
+.cd{
+    padding-right:600px ;
+}
+.de{
+   padding-right: 600px;
+}
+.ef{
+    background-color: red;
+}

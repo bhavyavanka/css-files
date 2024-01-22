@@ -1,0 +1,179 @@
+.a{
+    height:500px;
+    width: 700px;
+    border: 3px solid black;
+    background-color: black;
+}
+.b{
+    height:100px;
+    width: 700px;
+    background-color: aqua;
+}
+.c{
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+    float: left;
+}
+.d{
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    float: right;
+}
+.e{
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+}
+.f{
+    height: 50px;
+    width: 150px;
+    background-color:cadetblue;
+}
+.g{
+    height: 50px;
+    width: 150px;
+    background-color:chartreuse;
+}
+.h{
+    height: 50px;
+    width: 75px;
+    background-color:aquamarine;
+    float: right;
+}
+.i{
+    height: 50px;
+    width: 75px;
+    background-color:bisque;
+    float: right;
+}
+.j{
+    height: 400px;
+    width: 700px;
+    background-color:chocolate;
+}
+.k{
+    height:400px;
+    width: 150px;
+    background-color:darkslateblue;
+    float: left;
+}
+.l{
+    height: 280px;
+    width: 150px;
+    background-color: gold;
+}
+.m{
+    height:120px ;
+    width: 150px;
+    background-color: crimson;
+}
+.n{
+    height:120px;
+    width:75px;
+    background-color: darkblue;
+    float: left;
+}
+.o{
+        height:120px;
+        width:75px;
+        background-color:darkcyan;
+        float: right;
+}
+.p{
+    height:80px;
+    width: 700px;
+    background-color: darkkhaki;
+}
+.q{
+    height:320px;
+    width: 700px;
+    background-color:darkgreen;
+}
+.r{
+    height: 320px;
+    width: 100px;
+    background-color: darkred;
+    float: left;
+}
+.s{
+    height: 200px;
+    width:100px;
+    background-color: darkmagenta;
+}
+.t{
+    height: 120px;
+    width:100px;
+    background-color:deepskyblue;
+}
+.u{
+    height: 200px;
+    width:50px;
+    background-color:orange;
+    float: left; 
+}
+.v{
+    height: 200px;
+    width:50px;
+    background-color:dimgrey;
+    float: right;
+}
+.w{
+    height: 320px;
+    width: 100px;
+    background-color:red;
+    float: left;  
+}
+.x{
+    height: 320px;
+    width: 350px;
+    background-color:darkorchid;
+    float: right;  
+}
+.y{
+    height: 80px;
+    width: 350px;
+    background-color: deeppink;
+}
+.z{
+    height: 240px;
+    width: 350px;
+    background-color: lightblue;
+}
+.bhavi{
+    height: 240px;
+    width: 150px;
+    background-color: indianred;
+    float: left;
+}
+.kavya{
+    height: 120px;
+    width: 75px;
+    background-color: cornflowerblue;
+    float: left;
+}
+.raji{
+    height: 120px;
+    width: 150px;
+    background-color: fuchsia; 
+    float: left;
+}
+.jagannadh{
+    height: 120px;
+    width: 150px;
+    background-color:navy;
+    float: right;
+    
+}
+.pinky{
+    height: 120px;
+    width: 75px;
+    background-color:darkmagenta;
+    float: right;
+}
+.sravs{
+    height: 120px;
+    width: 50px;
+    background-color: aqua;
+}

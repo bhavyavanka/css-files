@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Z INDEX</title>
+        <style>
+            .a{
+                height: 400px;
+                width: 600px;
+                background-color: blue;
+                position: absolute;
+                top: 40px;
+                left: 50px;
+                z-index: 1;/*z index is used to arrange the positions of the divisions for example if we create 3 divisions then we want to change the first division on top position when they overlapped then this z index will be used*/
+            }
+            .b{
+                height: 300px;
+                width: 400px;
+                background-color: rgb(172, 20, 114);
+                position: absolute;
+                top: 80px;
+                left: 100px;
+                z-index: 2;/*z index will apply when position is given in the class then only z index will be applied*/
+            }
+            .c{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(46, 190, 24);
+                position: relative;
+               z-index: 3;/* z index is not applied for position:static;*/
+               top: 120px;
+               left:150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </body>
+</html>

@@ -1,0 +1,248 @@
+.a{
+    height: 900px;
+    width:1500px;
+    background-color: beige;
+}
+.b{
+    height:900px;
+    width:1210px;
+    margin-left: 30px;
+    border: 1px solid rgb(54, 54, 54);
+}
+.c{
+    height:900px;
+    width: 300px;
+    background-color:white;
+    float: left;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.d{
+    height:900px;
+    width: 300px;
+    background-color:white;
+    float: left;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.e{
+    height:900px;
+    width: 300px;
+    background-color:white;
+    float: left;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.f{
+    height:900px;
+    width: 300px;
+    background-color:white;
+    float:left;
+    border-bottom: 3px solid black;
+}
+.g{
+    height:480px;
+    width: 300px;
+    border-bottom: 3px solid black;
+}
+.h{
+    height: 480px;
+    width: 300px;
+    border-bottom: 3px solid black;
+}
+.i{
+    height: 480px;
+    width: 300px;
+    border-bottom: 3px solid black;
+}
+.j{
+    height: 480px;
+    width: 300px;
+    border-bottom: 3px solid black;
+}
+
+.l{
+    height:150px;
+    width:150px;
+    background-color: green;
+    border:2px solid green;
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+.k{
+    height:450px;
+    width:250px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.m{
+    height:450px;
+    width:250px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.n{
+    height:450px;
+    width:250px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.o{
+    height:450px;
+    width:250px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.p{
+    height: 150px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+}
+.q{
+    height: 145px;
+    width:145px;
+    background-color: rgb(6, 156, 6);
+    border:2px solid green;
+}
+.r{
+    height: 145px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+}
+.s{
+    height: 145px;
+    width:145px;
+    background-color: rgb(6, 156, 6);
+    border:2px solid green;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.t{
+    height: 150px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+}
+.u{
+    height: 145px;
+    width:100px;
+    background-color: rgb(6, 156, 6);
+    border:2px solid green;
+    position: absolute;
+    top: 0px;
+    left: 145px;
+}
+.v{
+    
+        height: 145px;
+        width:145px;
+        background-color:rgb(42, 168, 218);
+        border:2px solid blue;
+        position: relative;
+       
+}
+.w{
+    height: 145px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue; 
+    position: fixed; 
+}
+.x{
+    height: 145px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+    position: fixed;
+    top: 180px;
+}
+.y{
+    height:300px;
+    width:250px;
+    border:2px solid black;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    margin-top: 80px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.scrollable{
+    width:600%;
+    scroll-padding-block: 30px;
+    display: inline-block;
+}
+.z{
+    height: 120px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+}
+.bhavi{
+    height: 120px;
+                width: 145px;
+                background-color:green;
+                position: sticky;
+                top: 0px;
+             
+}
+.sravs{
+    height: 120px;
+                width: 145px;
+                background-color:green;
+                position: sticky;
+                bottom: 20px; 
+}
+.vasu{
+    height:300px;
+    width:260px;
+    border:2px solid black;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    margin-top: 80px;
+    margin-left: 20px; 
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.chinnu{
+    height: 120px;
+    width:145px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+    float: left;
+}
+.kavya{
+    height: 125px;
+    width: 145px;
+    background-color:green;
+    position: sticky;
+    left:280px;
+    margin-left:145px ;
+    margin-top: 0px;
+    left: 80px;  
+    float: left;
+}
+.susmi{
+    height: 125px;
+    width:125px;
+    background-color: rgb(26, 142, 188);
+    border:2px solid blue;
+    float: left;
+    margin-left:140px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>2D TRANSFORM IN CSS</title>
+        <style>
+            #bhavi{
+                height: 300px;
+                width: 250px;
+                background-color: aqua;
+                border: 1px solid aqua;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px;
+                color: white;
+                text-align: center;
+                font-size: 25PX;
+            }
+            #bhavi:hover{
+                transform: translate(40px,80px);
+            }
+            #b{
+                height: 300px;
+                width: 250px;
+                background-color:blueviolet;
+                border: 1px solid blueviolet;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #b:hover{
+                transform:translateX(50px);
+            }
+            #c{
+                height: 300px;
+                width: 250px;
+                background-color:blue;
+                border: 1px solid blue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px;
+                color: white;
+                text-align: center;
+                font-size: 25px; 
+            }
+            #c:hover{
+                transform: translateY(50px);
+            }
+            #d{
+                height: 300px;
+                width: 250px;
+                background-color:palegreen;
+                border: 1px solid palegreen;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #d:hover{
+                transform: rotate(50deg);
+            }
+            #e{
+                height: 300px;
+                width: 250px;
+                background-color:palevioletred;
+                border: 1px solid palevioletred;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #e:hover{
+                transform:rotate(-50deg)
+            }
+            #f{
+                height: 300px;
+                width: 250px;
+                background-color:palegoldenrod;
+                border: 1px solid palegoldenrod;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #f:hover{
+                transform: rotateX(30deg);
+            }
+            #g{
+                height: 300px;
+                width: 250px;
+                background-color:powderblue;
+                border: 1px solid powderblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #g:hover{
+                transform: rotateY(50deg);
+            }
+            #h{
+                height: 300px;
+                width: 250px;
+                background-color:violet;
+                border: 1px solid violet;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #h:hover{
+                transform: scale(2,3);
+            }
+            #i{
+                height: 300px;
+                width: 250px;
+                background-color:cornflowerblue;
+                border: 1px solid cornflowerblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;  
+            }
+            #i:hover{
+                transform: scaleX(2);
+            }
+            #j{
+                height: 300px;
+                width: 250px;
+                background-color:rgb(105, 214, 42);
+                border: 1px solid rgb(102, 232, 66);
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #j:hover{
+                transform: scaleY(4);
+            }
+            #k{
+                height: 300px;
+                width: 250px;
+                background-color:darkcyan;
+                border: 1px solid darkcyan;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #k:hover{
+                transform: skew(60deg,50deg);
+            }
+            #l{
+                height: 300px;
+                width: 250px;
+                background-color:darkmagenta;
+                border: 1px solid darkmagenta;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #l:hover{
+                transform: skewX(40deg);
+            }
+            #m{
+                height: 300px;
+                width: 250px;
+                background-color:darkblue;
+                border: 1px solid darkblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #m:hover{
+                transform: skewY(40deg);
+            }
+            #n{
+                height: 300px;
+                width: 250px;
+                background-color:tomato;
+                border: 1px solid tomato;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #n:hover{
+                transform: matrix(1,-0.3,0,2,80,90);}
+        </style>
+    </head>
+    <body>
+        <div id="bhavi">Translate()</div>
+        <div id="b">Translate X()</div>
+        <div id="c">Translate Y()</div>
+        <div id="d">Rotate clock-wise()</div>
+        <div id="e">Rotate anti clock-wise()</div>
+        <div id="f">Rotate X()</div>
+        <div id="g">Rotate Y()</div>
+        <div id="h">Scale()</div>
+        <div id="i">Scale X()</div>
+        <div id="j">Scale Y()</div>
+        <div id="k">Skew()</div>
+        <div id="l">Skew X()</div>
+        <div id="m">Skew Y()</div>
+        <div id="n">Matrix()</div>
+    </body>
+</html>

@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <title>2D TRANSFORM IN CSS</title>
+        <style>/*for 3D transforms in css also follows the same procedure but in 3D we have 3 axis ie.,X,Y,and Z */
+            #bhavi{
+                height: 300px;
+                width: 250px;
+                background-color: aqua;
+                border: 1px solid aqua;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px;
+                color: white;
+                text-align: center;
+                font-size: 25PX;
+            }
+            #bhavi:hover{
+                transform: translate(40px,80px);
+            }
+            #b{
+                height: 300px;
+                width: 250px;
+                background-color:blueviolet;
+                border: 1px solid blueviolet;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #b:hover{
+                transform:translateX(50px);
+            }
+            #c{
+                height: 300px;
+                width: 250px;
+                background-color:blue;
+                border: 1px solid blue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px;
+                color: white;
+                text-align: center;
+                font-size: 25px; 
+            }
+            #c:hover{
+                transform: translateY(50px);
+            }
+            #d{
+                height: 300px;
+                width: 250px;
+                background-color:palegreen;
+                border: 1px solid palegreen;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #d:hover{
+                transform: rotate(50deg);/* to rotate clock wise*/
+            }
+            #e{
+                height: 300px;
+                width: 250px;
+                background-color:palevioletred;
+                border: 1px solid palevioletred;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #e:hover{
+                transform:rotate(-50deg)/* to rotate anti-clock wise "-" sign is kept*/
+            }
+            #f{
+                height: 300px;
+                width: 250px;
+                background-color:palegoldenrod;
+                border: 1px solid palegoldenrod;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #f:hover{
+                transform: rotateX(30deg);/*rotate x is used to rotate the div in x axis position */
+            }
+            #g{
+                height: 300px;
+                width: 250px;
+                background-color:powderblue;
+                border: 1px solid powderblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #g:hover{
+                transform: rotateY(50deg);/*rotate y is used to rotate the div in y-axis position*/
+            }
+            #h{
+                height: 300px;
+                width: 250px;
+                background-color:violet;
+                border: 1px solid violet;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #h:hover{
+                transform: scale(2,3);/* scale () is used to increase the size of the division either in x-axis or y-axis or in both directions */
+            }
+            #i{
+                height: 300px;
+                width: 250px;
+                background-color:cornflowerblue;
+                border: 1px solid cornflowerblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;  
+            }
+            #i:hover{
+                transform: scaleX(2);
+            }
+            #j{
+                height: 300px;
+                width: 250px;
+                background-color:rgb(105, 214, 42);
+                border: 1px solid rgb(102, 232, 66);
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #j:hover{
+                transform: scaleY(4);
+            }
+            #k{
+                height: 300px;
+                width: 250px;
+                background-color:darkcyan;
+                border: 1px solid darkcyan;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #k:hover{
+                transform: skew(60deg,50deg);/*the skew () method skews an element along the x-axis and y-axis by the given angles*/
+            }
+            #l{
+                height: 300px;
+                width: 250px;
+                background-color:darkmagenta;
+                border: 1px solid darkmagenta;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #l:hover{
+                transform: skewX(40deg);
+            }
+            #m{
+                height: 300px;
+                width: 250px;
+                background-color:darkblue;
+                border: 1px solid darkblue;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #m:hover{
+                transform: skewY(40deg);
+            }
+            #n{
+                height: 300px;/*the matrix method combines all the 2D transform methods into one.the parameters are scale X(),skew(),.skew X(),skew Y(),translate(),translate X(),translate Y()*/
+                width: 250px;
+                background-color:tomato;
+                border: 1px solid tomato;
+                margin-top: 30px;
+                float: left;
+                margin-left: 20px; 
+                color: white;
+                text-align: center;
+                font-size: 25px;
+            }
+            #n:hover{
+                transform: matrix(1,-0.3,0,2,80,90);/*in these matrix 3d method we have to mention 16 values those parameters are */
+            }/* for 2d matrix we have to mention 6 values those parameters are mentioned in above comment*/
+        </style>
+    </head>
+    <body>
+        <div id="bhavi">Translate()</div>
+        <div id="b">Translate X()</div>
+        <div id="c">Translate Y()</div>
+        <div id="d">Rotate clock-wise()</div>
+        <div id="e">Rotate anti clock-wise()</div>
+        <div id="f">Rotate X()</div>
+        <div id="g">Rotate Y()</div>
+        <div id="h">Scale()</div>
+        <div id="i">Scale X()</div>
+        <div id="j">Scale Y()</div>
+        <div id="k">Skew()</div>
+        <div id="l">Skew X()</div>
+        <div id="m">Skew Y()</div>
+        <div id="n">Matrix()</div>
+    </body>
+</html>

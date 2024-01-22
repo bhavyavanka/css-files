@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>TRANSITIONS IN CSS</title>
+        <style>
+            #a{
+                height: 400px;
+                width: 350px;
+                background-color: rgb(214, 46, 16);
+                border: 1px solid rgb(214, 46, 16);
+                border-radius: 4px;
+                /*transition: all*/
+                transition-duration: 4s;/*how much duration the transitions will apply is setted by transition-duration*/
+                transition-delay: 2s;/*providing delay for applyinf transitions*/
+                transition-timing-function:ease-in;
+                transition-property:border;
+            }
+            #a:hover{
+               /* transform:skew(50deg);
+                border-radius:175px ;
+                background-color: rgb(44, 222, 31);*/
+                border: 5px solid blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><center><b><i>TRANSITIONS IN CSS</i></b></center></h1>
+        <center><div id="a"></div></center>
+    </body>
+</html>

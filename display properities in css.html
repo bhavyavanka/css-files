@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>DISPLAY PROPERITIES IN CSS</title>
+        <style>
+            p{/*block level element: defaultly this will occupy the entire space from left to right in the row*/
+                border: 2px solid black;/*<p> is a block level element if we want to this block level element into inline then we have to mention inline in display*/
+                display: inline;
+            }
+            span{/*inline level element:this will occupy the space upto how much content or sentence entired*/
+                border:6px solid red;/*this is an inline element*/
+                display: block;
+            }
+            .a{
+                height: 300px;
+                width:300px;
+                border:2px solid red;
+                float:left;
+                visibility: hidden;/*it will the create space for div and the properities which are mentioned for it will be applied but at the output will be hidden*/
+            }
+            .b{
+                height: 300px;
+                width:300px;
+                border:2px solid red;
+                float:left;
+                display: none;/*it will entirely remove the div properities and in the output it doesnot display in this division place next div will be appear*/
+                /*for example:when we fill any google forms if we click register then only the form will be appeared until that it will be doesnot displayed it is possible by using this display:none property*/ 
+            }
+            .c{
+                height: 300px;
+                width:300px;
+                border:2px solid red;
+                float:left;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1><b>DISPLAY PROPERITIES IN CSS</b></h1></center>
+        <hr>
+        <p>
+            This is a block level element
+        </p>
+        <span>This is an inline element</span>
+        <br><br>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </body>
+</html>

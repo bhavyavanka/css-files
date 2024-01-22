@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Animations in CSS</title>
+        <style>
+           /* #a{
+                height: 300px;
+                width: 300px;
+                background-color: blue;
+                border: 2px solid blue;
+                animation-name: bhavi;
+                animation-duration: 14s;
+                animation-delay: 2s;
+            }*/
+          /*  @keyframes bhavi{
+                from{           here "from" means 0 percent i.e, defaultly it will start from starting*//*if we want to mention another percentage then we will create as following below
+                    background-color: red;
+                }
+                to{                      "to" means 100% i.e., defaultly it will end
+                    background-color: rgb(207, 14, 78);
+                    border-radius: 150px;
+                    border: 5px solid black;
+                }
+            }*/
+            #b{
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+                background-color: aqua;
+                animation-name: kavya;
+                animation-duration: 4s;
+                animation-delay: 2s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: 2;
+                animation-fill-mode: forwards;/* In animation-fill-mode:forwards means it will at last color i.e.,(100%) & backwards ,eans it will end at first color i.e., (0%)which is given in the code*/
+                position: relative;
+            }
+            @keyframes kavya{
+                0%{
+                background-color: aquamarine; top: 0px; left: 0px;
+                }
+                25%{
+                    background-color:blueviolet;top: 120px; left: 700px;
+            }
+            50%{
+                background-color: chartreuse; top:260px; left: 800px;
+            }
+            75%{
+background-color: brown; top: 380px; left: 900px;
+            }
+            100%{
+                background-color: blue; top: 20px; left: 0px;
+            }
+        }
+        </style>
+    </head>
+    <body>
+    <center><h1><b><i>Animations in CSS</i></b></h1></center>
+         <div id="b"></div>
+    </body>
+</html>
